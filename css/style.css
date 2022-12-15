@@ -1,0 +1,96 @@
+.main-nav {
+    min-height: 10vh;
+}
+
+.active {
+    background-color: hsl(0, 94%, 66%) !important;
+}
+
+.hero {
+    min-height: 70vh;
+    background-image: url(/images/);
+}
+
+.btn-primary {
+    background-color: hsl(231, 69%, 60%) !important
+}
+
+.active-feature {
+    border-bottom: 5px solid hsl(0, 94%, 66%) !important;
+    color: black !important;
+}
+
+.accordion-button:hover {
+    color: hsl(0, 94%, 66%) !important
+}
+
+.footer-title {
+    letter-spacing: 4px;
+}
+
+footer {
+    background-color: hsl(231, 69%, 60%);
+}
+
+footer .footer-nav {
+    background-color: hsl(229, 31%, 21%);
+}
+
+.top-nav-links:hover {
+    color: hsl(0, 94%, 66%) !important;
+}
+
+.top-nav-btn {
+    border: 1px solid transparent !important;
+}
+
+.top-nav-btn:hover {
+    color: hsl(0, 94%, 66%) !important;
+    border: 1px solid hsl(0, 94%, 66%) !important;
+    background-color: transparent !important;
+}
+
+.chrome-btn:hover {
+    border: 1px solid hsl(231, 69%, 60%) !important;
+    color: hsl(231, 69%, 60%) !important;
+    background-color: transparent !important;
+}
+
+.firefox-btn:hover {
+    border: 1px solid black !important;
+    color: black !important;
+    background-color: transparent !important;
+}
+
+.feature-btn:hover {
+    color: hsl(0, 94%, 66%) !important;
+}
+
+.download-btns:hover {
+    border: 1px solid hsl(231, 69%, 60%) !important;
+    color: hsl(231, 69%, 60%) !important;
+    background-color: transparent !important;
+}
+
+.contact-btn {
+    border: 1px solid transparent;
+}
+
+.footer-btns:hover {
+    color: hsl(0, 94%, 66%) !important;
+}
+
+.contact-btn:hover {
+    color: hsl(0, 94%, 66%) !important;
+    border: 1px solid hsl(0, 94%, 66%) !important;
+    background-color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .dropdown-nav {
+        background-color: hsl(228, 100%, 97%);
+        padding-block: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+}
